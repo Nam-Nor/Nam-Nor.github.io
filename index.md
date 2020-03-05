@@ -25,6 +25,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -119,7 +120,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   					<div class="desc">
 						   					<h1>I am <br> a software engineer</h1>
 												<h2>Specializing in Robotic intelligence and controls</h2>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+												<p><a class="btn btn-primary btn-learn" data-nav-section="work"> View Portfolio <i class="icon-briefcase3"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -138,7 +139,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="col-md-12">
 									<div class="about-desc">
 										<!-- <span class="heading-meta">About Us</span> -->
-										<h2 class="colorlib-heading">Who Am I?</h2>
+										<h2 class="colorlib-heading">About me</h2>
 										<p><strong>I'm a roboticist at heart</strong> and I love working with technology governed by beautiful lines of well-commented code. I've picked up a couple of skills over the years, from programming microcontrollers for mobile robots, to making motors turn the way they should (which can actually be tricky at times). I have also dabbled in machine learning and am particularly interested in the applications of data-driven intelligent controls and probabilistic robotics. </p>
 										<p>Apart from my clear reverence for our future artificially intelligent overlords, I have a great liking of the New England outdoors (which stands pretty close in comparison with the Himalayan foothills where I grew up). You can otherwise see me either training Brazilian Jiu-Jitsu or playing tabletop board games. I mean come on, I'm not a robot, you guys!</p>
 									</div>
@@ -147,37 +148,37 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="row">
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
 									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
+										<span class="icon2"><i class="icon-book2"></i></span>
+										<h3>Started with a major in Mechanical Engineering, and minor in CS</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
 									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
+										<span class="icon2"><i class="icon-heart"></i></span>
+										<h3>Fell in love with the interdisciplinary field of robotics along the way</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
 									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
+										<span class="icon2"><i class="icon-tv2"></i></span>
+										<h3>Sharpened my skills as a programmer and software developer</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
 									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
+										<span class="icon2"><i class="icon-bookmark"></i></span>
+										<h3>Specialized in the development of software for autonomous systems</h3>
 									</div>
 								</div>
 							</div>
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
 										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
 										<a href="#" class="btn-hire">Hire me</a>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -189,74 +190,74 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+							<span class="heading-meta">What I do</span>
+							<h2 class="colorlib-heading">Here are my areas of expertise</h2>
 						</div>
 					</div>
 					<div class="row row-pt-md">
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-1">
 								<span class="icon">
-									<i class="icon-bulb"></i>
+									<i class="icon-cog"></i>
 								</span>
 								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Controls Engineering</h3>
+									<p>Designing and implementing linear and non-linear controllers for robotic applications</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-2">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-chart-line"></i>
 								</span>
 								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Machine Learning</h3>
+									<p>Implementing Deep Learning (Tensorflow/Keras) and Reinforcement Learning for adaptive learning tasks </p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-3">
 								<span class="icon">
-									<i class="icon-phone3"></i>
+									<i class="icon-truck2"></i>
 								</span>
 								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Mobile Robots</h3>
+									<p>Localization, mapping and path planning for autonomy using the Robot Operating System (ROS)</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
-									<i class="icon-layers2"></i>
+									<i class="icon-code"></i>
 								</span>
 								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Embedded Software</h3>
+									<p>C/C++ programming of mechatronic systems</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-5">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-pencil"></i>
 								</span>
 								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Simulation Design</h3>
+									<p>Development of simulated environments with AI agents</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-6">
 								<span class="icon">
-									<i class="icon-phone3"></i>
+									<i class="icon-book"></i>
 								</span>
 								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>STEM Education</h3>
+									<p>Tutoring, Public Speaking and Technical Writing</p>
 								</div>
 							</div>
 						</div>
@@ -271,20 +272,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 					<div class="row">
 						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
+							<span class="colorlib-counter js-counter" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Industry Roles</span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
+							<span class="colorlib-counter js-counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Github Projects</span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
+							<span class="colorlib-counter-label">Years of programming experience</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Pro-bono roles</span>
 						</div>
 					</div>
 				</div>
@@ -294,52 +295,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
+							<span class="heading-meta">My specializations</span>
+							<h2 class="colorlib-heading animate-box">Technical Skills</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							<p>Apart from my specific language proficiencies listed below, I have working knowledge of software development practices including version control, code reviews, bug tracking and testing/debugging. </p>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>Photoshop</h3>
+								<h3>C/C++</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
 								  	</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>jQuery</h3>
+								<h3>Robot Operating System (ROS)</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
 								    <span>90%</span>
 								  	</div>
@@ -348,9 +327,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>WordPress</h3>
+								<h3>Python</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
 								    <span>70%</span>
 								  	</div>
@@ -359,9 +338,53 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>SEO</h3>
+								<h3>Serial Comms (SPI, I2C, CAN)</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Java</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Signal Processing</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Matlab</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>BLDC Motor Control</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
 								    <span>80%</span>
 								  	</div>
@@ -387,7 +410,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master's Degree in Robotics and Control Systems Engineering 
 									            </a>
 									        </h4>
 									    </div>
@@ -395,33 +418,45 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									         <div class="panel-body">
 									            <div class="row">
 										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+										      			<p>Georgia Institute of Technology (Atlanta, GA)</p>
 										      		</div>
 										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										      			<p>Graduated December 2017</p>
 										      		</div>
 										      	</div>
+										      	<p><strong>Notable achievements:</strong></p>
 									         </div>
 									    </div>
 									</div>
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor's Degree in Mechanical Engineering
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>University of Massachusetts (Amherst, MA)</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>Graduated May 2016</p>
+										      		</div>
+										      	</div>
+										      	<p><strong>Notable achievements:</strong></p>
+									         </div>
+									        <!-- <div class="panel-body">
 									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 													<ul>
 														<li>Separated they live in Bookmarksgrove right</li>
 														<li>Separated they live in Bookmarksgrove right</li>
 													</ul>
-									        </div>
+									        </div> -->
 									    </div>
 									</div>
-									<div class="panel panel-default">
+									<!-- <div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
@@ -461,7 +496,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
 									        </div>
 									    </div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -488,8 +523,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					                  <h2><a href="http://www.dekaresearch.com/" target="_blank">Robotic Controls Engineer at DEKA R&D</a> <span>May 2018 - Sep 2019</span></h2>
+					                  <p>I contributed to the development and testing of control algorithms (C++) for the IBOT robotic wheelchair and the FedEx SameDay autonomous delivery bot. I also have experience in the debugging of embedded software issues for these systems and their accompanying test/calibration fixtures (including, but not limited to CAN-bus data processing, signal analysis, and Python scripting).</p>
 					               </div>
 					            </div>
 					         </article>
@@ -501,8 +536,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="https://www.cc.gatech.edu/~zk15/ML2017/" target="_blank">Grad TA for Machine Learning at Georgia Tech</a> <span>Aug 2017 - Dec 2017</span></h2>
+					                  <p>As head TA, I assisted faculty members in planning class administrative details while coordinating execution with five other teaching assistants. I also aided in classroom instruction, exams, grading, and student tutoring.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -513,8 +548,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="http://alpinax.com/" target="_blank">Dynamic Systems Engineering Intern at Alpinax</a> <span>May 2016 - Dec 2016</span></h2>
+					                  <p>I designed, built and tested electromechanical systems that would be mounted onto UAVs. My main independent project was the development of a custom camera stabilizing 3-axis gimbal, which involved mechanical/electrical design, parts sourcing, rapid prototyping and controller integration. I was also responsible for establishing company relations with vendors and engineering service providers to meet project needs.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -525,13 +560,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Engineering Intern at CIRTEC Medical Systems</a> <span>May 2015 - Dec 2015</span></h2>
+					                  <p>I oversaw manufacturing operations for two major clients and helped revise process documentation. I worked with engineers and technicians to develop and implement process improvements, followed by conducting verification and validation procedures. My most rewarding accomplishment during my time here was programming a user-friendly graphical user interface which helped Quality Engineers in the analysis of gas levels at laser welding stations.</p>
 					               </div>
 					            </div>
 					         </article>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					         <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-5">
 					                  <i class="icon-pen2"></i>
@@ -541,7 +576,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					               </div>
 					            </div>
-					         </article>
+					         </article> -->
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
@@ -560,13 +595,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+							<h2 class="colorlib-heading animate-box">Project Portfolio</h2>
 						</div>
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
+						<!-- <div class="col-md-12">
 							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
+						</div> -->
 					</div>
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
@@ -660,11 +695,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 
@@ -673,21 +708,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
+							<h2 class="colorlib-heading">My Blogs</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="https://www.projectyeti.us/single-post/2017/08/12/Tibetans-in-Tech-Cultivating-a-Passion-for-STEM" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://www.projectyeti.us/single-post/2017/08/12/Tibetans-in-Tech-Cultivating-a-Passion-for-STEM" class="blog-img" target="_blank"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>August 15, 2017 </small> | <small> STEM Education </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="https://www.projectyeti.us/single-post/2017/08/12/Tibetans-in-Tech-Cultivating-a-Passion-for-STEM">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span><small>August 15, 2017 </small> | <small> STEM Education </small></span>
+									<h3><a href="https://www.projectyeti.us/single-post/2017/08/12/Tibetans-in-Tech-Cultivating-a-Passion-for-STEM" target="_blank">Tibetans in Tech: Cultivating a Passion for STEM</a></h3>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+						<!-- <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
@@ -706,13 +740,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 
@@ -728,32 +762,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-5">
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
+									<i class="icon-mail"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
+									<p><a href="mailto:namkha.tech@gmail.com">namkha.tech@gmail.com</a></p>
 								</div>
 							</div>
 
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-map"></i>
+									<i class="icon-github"></i>
 								</div>
 								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+									<p><a href="https://github.com/Nam-Nor" target="_blank">Nam-Nor</a></p>
 								</div>
 							</div>
 
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
+									<i class="icon-linkedin2"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
+									<p><a href="https://www.linkedin.com/in/namkhanorsang/" target="_blank">namkhanorsang</a></p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-md-push-1">
+						<!-- <div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 									<form action="">
@@ -776,7 +810,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 								
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>
